@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dark Mode</title>
+</head>
+<body>
+    <h1>Dark / Light Mode</h1>
+    <p>Use the check box to toggle between Dark & Light mode.....</p>
+    Dark Mode: <input type="checkbox" onclick="toggle()">
+
+    <script>
+        function toggle()
+        {
+            var element = document.body;
+            element.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
